@@ -1,0 +1,44 @@
+.header, .header-space
+{
+  height: 200px;
+  background-color: white;
+}
+
+.footer, .footer-space
+{
+  height: 200px;
+  background-color: white;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+table{
+    width: 100%;
+}
+
+@page {
+  margin: 2mm
+}
+
+@media print {
+
+    thead {display: table-header-group;}
+    tfoot {display: table-footer-group;}
+
+    p, b, div, h1, h2, h3, h4, h5, h6{color:black}
+
+    .paparan-sahaja{display: none;}
+ }

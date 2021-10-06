@@ -1,0 +1,12 @@
+apps:
+  - name: lpnode-queue
+    script: <PATH_TO_APPLICATION>/artisan
+    exec_mode: fork
+    interpreter: php
+    instances: 1
+    error_file: <PATH_TO_APPLICATION>/queue/log/lpnode-queue-err.log
+    out_file: <PATH_TO_APPLICATION>/queue/log/lpnode-queue-out.log
+    args:
+      - queue:listen
+      - --tries=3
+      

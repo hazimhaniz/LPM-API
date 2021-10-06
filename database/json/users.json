@@ -1,0 +1,253 @@
+{
+    "users" : [
+        {
+            "id": "admin",
+            "name": "Admin",
+            "description": "Admin Rania",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "sup",
+            "name": "SUP",
+            "description": "Setiausaha Peperiksaan Kerajaan 1",
+            "type": 1,
+            "status":1,
+            "guard": "web",
+            "id_sekolah": "1"
+        },
+        {
+            "id": "pend_sek",
+            "name": "Pentadbir Sekolah",
+            "description": "Pentadbir Sekolah",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "ppd",
+            "name": "PPD",
+            "description": "Pejabat Pelajaran Daerah",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "jpn",
+            "name": "JPN",
+            "description": "Jabatan Pendidikan Negeri",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "peng_jpn",
+            "name": "Pengarah JPN",
+            "description": "Pengarah JPN",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "timb_peng_jpn",
+            "name": "PPD",
+            "description": "Timbalan Pengarah JPN",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "ketua_pemeriksa",
+            "name": "Ketua Pemeriksa",
+            "description": "Ketua Pemeriksa",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "ketua_pemeriksa_sek",
+            "name": "Ketua Pemeriksa Sekolah",
+            "description": "Ketua Pemeriksa Sekolah",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "pemeriksa",
+            "name": "Pemeriksa",
+            "description": "Pemeriksa",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "penyelia_kawasan",
+            "name": "Penyelia Kawasan",
+            "description": "Penyelia Kawasan",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "ketua_pengawas",
+            "name": "KPs",
+            "description": "Ketua Pengawas",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "timb_ketua_pengawas",
+            "name": "TKPs",
+            "description": "Timbalan Ketua Pengawas",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "pengawas",
+            "name": "Pengawas",
+            "description": "Pengawas",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "kpk",
+            "name": "KPK",
+            "description": "Ketua Pentaksir Kebangsaan",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "kpn",
+            "name": "KPN",
+            "description": "Ketua Pentaksir Negeri",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "kpkw",
+            "name": "KPKw",
+            "description": "Ketua Pentaksir Kawasan",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "pkw",
+            "name": "PKw",
+            "description": "Pentaksir Kawasan",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "pks",
+            "name": "Pentaksir Sekolah",
+            "description": "Pentaksir Sekolah",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "peng_lp",
+            "name": "Pengarah LP",
+            "description": "Pengarah Lembaga Peperiksaan Malaysia",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "umpk",
+            "name": "UMPK",
+            "description": "Unit Maklumat dan Pemprosesan Keputusan",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "upu",
+            "name": "UPU",
+            "description": "Unit Pra Universiti",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "peg_meja_up",
+            "name": "Pegawai Meja UP",
+            "description": "Pegawai Meja Unit Pra Universiti",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "kpp_upu",
+            "name": "KPP UPU",
+            "description": "KPP Unit Pra Universiti",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "upt_admin",
+            "name": "UPT Admin",
+            "description": "Admin Unit Pembangunan Teknologi",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "updps",
+            "name": "UPDPS",
+            "description": "Unit Pengurusan Data dan Penentuan Standard",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "spi",
+            "name": "SPI",
+            "description": "Sektor Pemibaan Instrumen",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "updp",
+            "name": "UPDP",
+            "description": "Unit Perolehan dan Pembangunan",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "ubap",
+            "name": "UBAP",
+            "description": "Unit Bahan Am Peperiksaan",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "upil",
+            "name": "UPIL",
+            "description": "Unit Pengajian Islam Lanjut",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        },
+        {
+            "id": "uidp",
+            "name": "UIDP",
+            "description": "UIDP",
+            "type": 1,
+            "status":1,
+            "guard": "web"
+        }
+    ]
+}
